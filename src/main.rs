@@ -7,6 +7,7 @@
 use std::path::Path;
 use std::env;
 pub mod sbox;
+pub mod encrypter;
 
 
 fn sub_and_print_string(sb: &sbox::SBox, test_string: &str) {
